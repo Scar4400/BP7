@@ -1,0 +1,9 @@
+To use this system:
+
+1. Install the required packages using `pip install -r requirements.txt`
+2. Set up your API keys in the `.env` file
+3. Run `python main.py`
+
+This will fetch the data, preprocess it, train the models, make predictions, and generate visualizations.
+
+Remember to regularly update your training data and retrain your models to maintain their accuracy. Also, consider implementing a more sophisticated data updating mechanism for production use, as the current system fetches all data each time it runs.
